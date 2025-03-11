@@ -1,0 +1,38 @@
+2024-06-22 14:32:51.105 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStarting:55] - Starting ImpalaqueryApplicationTests using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 2480 (started by 81902 in C:\Intellij\impalaquery)
+2024-06-22 14:32:51.133 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-22 14:32:55.197 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStarted:61] - Started ImpalaqueryApplicationTests in 5.464 seconds (JVM running for 8.776)
+2024-06-22 14:33:06.389 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [contextLoads:82] - [v] jsonResult : [{"field_3":"g","field_1":"c","field_2":"f"}]
+2024-06-22 14:43:32.592 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStarting:55] - Starting ImpalaqueryApplicationTests using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 14840 (started by 81902 in C:\Intellij\impalaquery)
+2024-06-22 14:43:32.597 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-22 14:43:36.052 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStarted:61] - Started ImpalaqueryApplicationTests in 4.337 seconds (JVM running for 6.464)
+2024-06-22 14:43:37.163 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [contextLoads:125] - Exception : null
+2024-06-22 14:53:48.808 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStarting:55] - Starting ImpalaqueryApplicationTests using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 13572 (started by 81902 in C:\Intellij\impalaquery)
+2024-06-22 14:53:48.815 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-22 14:53:52.287 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStarted:61] - Started ImpalaqueryApplicationTests in 4.339 seconds (JVM running for 6.041)
+2024-06-22 14:53:54.328 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [contextLoads:85] - [v] jsonResult : [{"field_3":"g","field_1":"c","field_2":"f"}]
+2024-06-22 14:54:59.270 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStarting:55] - Starting ImpalaqueryApplicationTests using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 14476 (started by 81902 in C:\Intellij\impalaquery)
+2024-06-22 14:54:59.276 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-22 14:55:02.330 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStarted:61] - Started ImpalaqueryApplicationTests in 3.992 seconds (JVM running for 6.177)
+2024-06-22 14:55:04.305 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [contextLoads:85] - [v] jsonResult : [{"field_3":"g","field_1":"c","field_2":"f"}]
+2024-06-22 15:06:27.680 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 13284 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2024-06-22 15:06:27.687 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-22 15:06:30.345 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 3.496 seconds (JVM running for 5.231)
+2024-06-22 15:11:07.857 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 3436 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2024-06-22 15:11:07.864 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-22 15:11:10.055 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 3.121 seconds (JVM running for 4.807)
+2024-06-22 15:24:55.131 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 13064 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2024-06-22 15:24:55.140 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-22 15:25:47.388 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 14396 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2024-06-22 15:25:47.392 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-22 15:27:30.335 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 12780 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2024-06-22 15:27:30.342 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-22 15:27:32.730 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 3.156 seconds (JVM running for 4.778)
+2024-06-22 15:28:36.258 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest2:24] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2024-06-22 15:28:37.875 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest2:31] - [{field_3=g, field_1=c, field_2=f}]
+2024-06-22 15:30:45.868 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest2:24] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2024-06-22 15:30:46.379 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest2:31] - [{field_3=g, field_1=c, field_2=f}]
+2024-06-22 15:38:42.195 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 13708 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2024-06-22 15:38:42.201 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-22 15:38:45.415 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 4.337 seconds (JVM running for 6.545)
+2024-06-22 15:42:36.795 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest2:24] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2024-06-22 15:42:37.623 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest2:31] - [{field_3=g, field_1=c, field_2=f}]

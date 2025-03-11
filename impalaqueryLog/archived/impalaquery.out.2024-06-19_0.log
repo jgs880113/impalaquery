@@ -1,0 +1,5 @@
+2024-06-19 20:45:13.339 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStarting:55] - Starting ImpalaqueryApplicationTests using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 25872 (started by 81902 in C:\Intellij\impalaquery)
+2024-06-19 20:45:13.361 [impalaquery] INFO  c.b.i.ImpalaqueryApplicationTests [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-19 20:45:22.037 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 25584 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2024-06-19 20:45:22.048 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2024-06-19 20:45:25.796 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 4.673 seconds (JVM running for 6.422)

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bsn.impalaquery.test2.mapper.Test2Mapper">
+	
+
+	<select id="selectTest2" resultType="hashmap">
+		SELECT field_1, field_2, field_3
+		  FROM bsf.test2
+		 WHERE field_1 = #{field_1}
+	  order by field_1 desc
+	</select>
+
+	<select id="selectTest3" resultType="int">
+		SELECT 1000
+	</select>
+	
+</mapper>
