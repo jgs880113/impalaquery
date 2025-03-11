@@ -28,6 +28,7 @@ public class Test2Service {
     @Async("asyncExecutor") // 특정 스레드 풀 사용
     public CompletableFuture<List<Map<Object, String>>> selectTest2(Map<String, Object> requestParam) {
         System.out.println("selectTest2");
+        System.out.println("selectTest2 executed on thread: " + Thread.currentThread().getName());
         List<Map<Object, String>> data = test2Mapper.selectTest2(requestParam);
         return CompletableFuture.completedFuture(data);
     }
@@ -35,6 +36,7 @@ public class Test2Service {
     @Async("asyncExecutor") // 특정 스레드 풀 사용
     public CompletableFuture<Integer> selectTest3(Map<String, Object> requestParam) {
         System.out.println("selectTest3");
+        System.out.println("selectTest3 executed on thread: " + Thread.currentThread().getName());
         int data = test2Mapper.selectTest3(requestParam);
         return CompletableFuture.completedFuture(data);
     }

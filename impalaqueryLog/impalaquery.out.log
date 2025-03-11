@@ -12,3 +12,9 @@
 2025-03-11 10:51:13.428 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 15452 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
 2025-03-11 10:51:13.433 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
 2025-03-11 10:51:16.106 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 3.477 seconds (JVM running for 4.981)
+2025-03-11 12:42:09.782 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 6888 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2025-03-11 12:42:09.788 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2025-03-11 12:42:12.067 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 2.957 seconds (JVM running for 4.339)
+2025-03-11 13:29:23.531 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 3416 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2025-03-11 13:29:23.538 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2025-03-11 13:29:26.031 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 3.303 seconds (JVM running for 4.979)
