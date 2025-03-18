@@ -11,7 +11,14 @@
 	</select>
 
 	<select id="selectTest3" resultType="int">
-		SELECT 1000
+		SELECT COUNT(*) AS CNT FROM bsf.test2
+	</select>
+
+	<select id="selectTest22" resultType="hashmap">
+		SELECT field_1, field_2, field_3
+		FROM bsf.test2
+		WHERE field_1 = #{field_1}
+		order by field_1 desc
 	</select>
 	
 </mapper>

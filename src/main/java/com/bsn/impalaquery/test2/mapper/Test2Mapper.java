@@ -10,4 +10,6 @@ import java.util.concurrent.CompletableFuture;
 public interface Test2Mapper {
 	List<Map<Object, String>>  selectTest2(Map<String, Object> requestParam);
 	int selectTest3(Map<String, Object> requestParam);
+
+	List<Map<String, Object>>  selectTest22(Map<String, Object> requestParam);
 }

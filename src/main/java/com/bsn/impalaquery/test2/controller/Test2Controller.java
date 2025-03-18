@@ -21,42 +21,46 @@ public class Test2Controller {
 
     @Autowired
     Test2Service test2Service;
-//    @RequestMapping(value = "/selectTest2", method = RequestMethod.POST)
-//    public Map<String, Object> selectTest2(@RequestBody Map<String, Object> requestParam) {
-//        log.info("[v] ---------- RestFul API CALL!! , param : {} ----------", requestParam);
-//        //Map<String, String> parameters = new HashMap<>();
-//        //parameters.put("field_1", "c");
-//        Map<String, Object> response = new HashMap<>();
-//        List<Map<String, Object>> responses = new ArrayList<>();
-//        try {
-//            responses = test2Service.selectTest2(requestParam);
-//            log.info(responses.toString());
-//        } catch (Exception e) {
-//            log.error("Error occurred while calling the API: {}", e.getMessage(), e);
-//            response = new HashMap<>();
-//            response.put("statusCode", 500);
-//            response.put("errorMessage", "Internal Server Error: " + e.getMessage());
-//        }
-//
-//        return response;
-//    }
+
+    @RequestMapping(value = "/selectTest22", method = RequestMethod.POST)
+    public Map<String, Object> selectTest22(@RequestBody Map<String, Object> requestParam) {
+        log.info("[v] ---------- RestFul API CALL!! , param : {} ----------", requestParam);
+        long startTime = System.currentTimeMillis(); // 시작 시간 체크
+        //Map<String, String> parameters = new HashMap<>();
+        //parameters.put("field_1", "c");
+        Map<String, Object> response = new HashMap<>();
+        List<Map<String, Object>> responses = new ArrayList<>();
+        try {
+            responses = test2Service.selectTest22(requestParam);
+            log.info(responses.toString());
+        } catch (Exception e) {
+            log.error("Error occurred while calling the API: {}", e.getMessage(), e);
+            response = new HashMap<>();
+            response.put("statusCode", 500);
+            response.put("errorMessage", "Internal Server Error: " + e.getMessage());
+        }
+        long endTime = System.currentTimeMillis(); // 종료 시간 체크
+        System.out.println("전체 작업 완료 - 실행 시간: " + (endTime - startTime) + "ms");
+        return response;
+    }
 
     @RequestMapping(value = "/selectTest2", method = RequestMethod.POST)
     public CompletableFuture<List<Map<Object, String>>> selectTest2(@RequestBody Map<String, Object> requestParam) {
-        CompletableFuture<List<Map<Object, String>>> data1Future  = test2Service.selectTest2(requestParam);
-        CompletableFuture<Integer> countFuture  = test2Service.selectTest3(requestParam);
+        long startTime = System.currentTimeMillis(); // 시작 시간 체크
 
-        return CompletableFuture.allOf(data1Future, countFuture)
-                .thenApply(v -> {
-                    List<Map<Object, String>> data1 = data1Future.join(); // data1 리스트
-                    int count = countFuture.join(); // int count 값 가져오기
+        CompletableFuture<List<Map<Object, String>>> data1Future = test2Service.selectTest2(requestParam);
+        CompletableFuture<Integer> countFuture = test2Service.selectTest3(requestParam);
 
-                    // 🔹 data1의 모든 항목에 "count" 추가
-                    for (Map<Object, String> item : data1) {
-                        item.put("count", String.valueOf(count)); // count 추가
-                    }
+        return data1Future.thenCombine(countFuture, (data1, count) -> {
+            long endTime = System.currentTimeMillis(); // 종료 시간 체크
+            System.out.println("전체 비동기 작업 완료 - 실행 시간: " + (endTime - startTime) + "ms");
 
-                    return data1; // data1만 반환
-                });
+            //data1의 모든 항목에 "count" 추가
+            for (Map<Object, String> item : data1) {
+                item.put("count", String.valueOf(count)); // count 추가
+            }
+
+            return data1; // data1만 반환
+        });
     }
 }

@@ -11,7 +11,6 @@ import java.util.concurrent.Executor;
 public class ImpalaConnector implements Connection {
     private final Connection originalConnection;
     public ImpalaConnector(Connection originalConnection) {
-        System.out.println("?zzzz");
         this.originalConnection = originalConnection;
     }
     @Override
@@ -22,8 +21,7 @@ public class ImpalaConnector implements Connection {
 
     @Override
     public PreparedStatement prepareStatement(String sql) throws SQLException {
-        //return null;
-        System.out.println("???????????????");
+        //return null;;
         return originalConnection.prepareStatement(sql);
     }
 
