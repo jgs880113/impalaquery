@@ -189,3 +189,20 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 2025-03-18 10:23:40.193 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
 2025-03-18 10:23:49.587 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
 2025-03-18 10:23:50.656 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 11:40:40.384 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 11:40:40.953 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 11:40:58.091 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 11:40:58.651 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 12:07:40.441 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 9060 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2025-03-18 12:07:40.446 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2025-03-18 12:07:43.372 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 3.595 seconds (JVM running for 5.095)
+2025-03-18 12:33:33.266 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 12:33:33.812 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 12:52:00.318 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 12:52:00.820 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 13:30:47.961 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 13:30:48.503 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 13:30:56.356 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 13:30:56.925 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 13:31:06.013 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 13:31:06.858 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
