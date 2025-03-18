@@ -239,3 +239,156 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 2025-03-18 10:09:59.391 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
 2025-03-18 10:10:00.408 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
 2025-03-18 10:10:00.409 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:17:22.356 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:17:22.359 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:17:22.413 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:17:22.824 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:17:22.825 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:17:30.308 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:17:30.310 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:17:30.336 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:17:30.851 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:17:30.852 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:17:38.424 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:17:38.427 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:17:38.480 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:17:39.117 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:17:39.117 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:17:57.685 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:17:57.720 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:17:58.551 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:18:17.245 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:18:17.346 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:18:18.143 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:18:43.491 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:18:43.495 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:18:43.537 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:18:44.827 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:18:44.829 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:19:09.387 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 9616 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2025-03-18 10:19:09.392 [impalaquery] DEBUG c.b.i.ImpalaqueryApplication [logStarting:56] - Running with Spring Boot v2.7.18, Spring v5.3.31
+2025-03-18 10:19:09.393 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2025-03-18 10:19:12.259 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 3.706 seconds (JVM running for 5.55)
+2025-03-18 10:19:20.321 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:19:20.356 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:19:20.577 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:19:21.191 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:19:21.198 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:19:34.904 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:19:34.911 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:19:34.952 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:19:35.766 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:19:35.768 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:20:01.603 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:20:01.603 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:20:01.712 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:20:01.717 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:20:02.030 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:20:02.781 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:20:17.756 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarting:55] - Starting ImpalaqueryApplication using Java 1.8.0_281 on DESKTOP-1QDM806 with PID 19556 (C:\Intellij\impalaquery\target\classes started by 81902 in C:\Intellij\impalaquery)
+2025-03-18 10:20:17.763 [impalaquery] DEBUG c.b.i.ImpalaqueryApplication [logStarting:56] - Running with Spring Boot v2.7.18, Spring v5.3.31
+2025-03-18 10:20:17.765 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStartupProfileInfo:638] - The following 1 profile is active: "dev"
+2025-03-18 10:20:20.850 [impalaquery] INFO  c.b.i.ImpalaqueryApplication [logStarted:61] - Started ImpalaqueryApplication in 4.61 seconds (JVM running for 7.341)
+2025-03-18 10:20:31.549 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:20:31.549 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:20:31.784 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:20:31.833 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:20:32.031 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:20:32.689 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:20:41.678 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:20:41.678 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:20:41.720 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:20:41.775 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:20:41.977 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:20:42.617 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:20:50.278 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:20:50.278 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:20:50.374 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:20:50.375 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:20:50.515 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:20:51.149 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:21:19.399 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:21:19.399 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:21:19.741 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:21:19.848 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:21:20.204 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:21:21.616 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:21:30.651 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:21:30.651 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:21:30.747 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:21:30.748 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:21:30.901 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:21:31.600 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:21:39.651 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:21:39.651 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:21:39.742 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:21:39.744 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:21:39.973 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:21:40.608 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:21:51.625 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:21:51.627 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:21:51.772 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:21:51.783 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:21:52.227 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:21:52.962 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:22:06.494 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:22:06.494 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:22:06.581 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:22:06.587 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:22:06.820 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:22:07.404 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:22:18.444 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:22:18.445 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:22:18.529 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:22:18.571 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:22:18.806 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:22:19.351 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:22:28.207 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:22:28.207 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:22:28.243 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:22:28.245 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:22:28.404 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:22:29.045 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:22:37.114 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:22:37.115 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:22:37.191 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:22:37.192 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:22:37.352 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:22:37.955 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:22:45.785 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:22:45.785 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:22:45.860 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:22:45.869 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:22:46.099 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:22:46.799 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1
+2025-03-18 10:23:11.460 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:23:11.462 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:23:11.521 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:23:12.399 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:23:12.401 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:23:21.432 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:23:21.436 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:23:21.483 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:23:22.107 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:23:22.108 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:23:29.851 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:23:29.854 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:23:29.914 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:23:30.660 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:23:30.662 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:23:39.324 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:23:39.328 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:23:39.364 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:23:40.192 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:23:40.193 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:23:49.587 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:27] - [v] ---------- RestFul API CALL!! , param : {field_1=c} ----------
+2025-03-18 10:23:49.597 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:23:49.640 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:23:50.655 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest22 [debug:137] - <==      Total: 1
+2025-03-18 10:23:50.656 [impalaquery] INFO  c.b.i.t.controller.Test2Controller [selectTest22:35] - [{field_3=g, field_1=c, field_2=f}]
+2025-03-18 10:24:25.020 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==>  Preparing: SELECT COUNT(*) AS CNT FROM bsf.test2
+2025-03-18 10:24:25.020 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==>  Preparing: SELECT field_1, field_2, field_3 FROM bsf.test2 WHERE field_1 = ? order by field_1 desc
+2025-03-18 10:24:25.107 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - ==> Parameters: 
+2025-03-18 10:24:25.108 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - ==> Parameters: c(String)
+2025-03-18 10:24:25.352 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest3 [debug:137] - <==      Total: 1
+2025-03-18 10:24:26.214 [impalaquery] DEBUG c.b.i.t.m.Test2Mapper.selectTest2 [debug:137] - <==      Total: 1

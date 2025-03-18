@@ -33,7 +33,7 @@ public class Test2Service {
     public CompletableFuture<List<Map<Object, String>>> selectTest2(Map<String, Object> requestParam) {
         return CompletableFuture.supplyAsync(() -> { //비동기 실행
             long start = System.currentTimeMillis();
-            System.out.println("🔥 selectTest2 시작 - 실행 스레드: " + Thread.currentThread().getName());
+            System.out.println("selectTest2 시작 - 실행 스레드: " + Thread.currentThread().getName());
 
             List<Map<Object, String>> data = test2Mapper.selectTest2(requestParam); //MyBatis 비동기 실행
 
@@ -48,8 +48,8 @@ public class Test2Service {
             long start = System.currentTimeMillis();
             System.out.println("selectTest3 시작 - 실행 스레드: " + Thread.currentThread().getName());
 
-            //int data = test2Mapper.selectTest3(requestParam); // MyBatis 비동기 실행
-            int data = 1;
+            int data = test2Mapper.selectTest3(requestParam); // MyBatis 비동기 실행
+            //int data = 1;
             long end = System.currentTimeMillis();
             System.out.println("selectTest3 완료 - 실행 시간: " + (end - start) + "ms");
             return data;
